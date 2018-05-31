@@ -29,6 +29,9 @@ public class SecretMessageBox {
 	    	 
 	}
 	}
+	
+	
+	
 	// 1. Set a password in a String variable
 	
 	// 2. Using a pop-up, ask the first person for a secret message and store it in a variable
