@@ -1,3 +1,5 @@
+import javax.swing.JOptionPane;
+
 //    Copyright (c) The League of Amazing Programmers 2013-2017
 //    Level 0
 
@@ -6,7 +8,8 @@
 public class TheRiddler {
 
 	public static void main(String[] args) {
-
+		int score = 0;
+ string aswer = JOptionPane.showInputDialog(null,"What did the clock say to the" );
 		// 1. Make a variable to hold the score
 
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
