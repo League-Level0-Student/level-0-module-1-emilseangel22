@@ -9,8 +9,15 @@ public class TheRiddler {
 
 	public static void main(String[] args) {
 		int score = 0;
-String aswer = JOptionPane.showInputDialog(null,"What did the clock say to the" );
-		// 1. Make a variable to hold the score
+String answer = JOptionPane.showInputDialog(null,"What did the clock say to the watch?");
+if (answer.equals("can't wait to see you later")){
+	JOptionPane.showMessageDialog(null,"You are right!");
+	score = score +1;
+
+}
+else {
+	JOptionPane.showMessageDialog null, "You are wrong. It is can't wait to see you later."+score; 
+}
 
 		// 3. Ask the user a riddle. Here are some ideas: bit.ly/some-riddles
 
