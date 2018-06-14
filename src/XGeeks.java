@@ -4,6 +4,7 @@
 
 
 
+import javax.print.DocFlavor.INPUT_STREAM;
 import javax.swing.JOptionPane;
 
 /*
@@ -13,10 +14,18 @@ import javax.swing.JOptionPane;
 */
 public class XGeeks {
 public static void main(String[] args) {
+String robert = "speed";
+String jp = "funny";
+String emilo = "fly";
+String kassandra = "singing";
+String emilse = "being ptient";
+String name = JOptionPane.showInputDialog(null ,"Enter your name");
+if(answer.equals ("robert") ){
+	JOptionPane.showConfirmDialog, message, title, optionType)
+}
+// 1. Save the superpower for each person in a variable.
 
-		// 1. Save the superpower for each person in a variable.
-
-		// 2. Ask the user to enter a name. Store their answer in a variable.
+ 		// 2. Ask the user to enter a name. Store their answer in a variable.
 
 		// 3. Show the superpower in a pop-up, depending on the name entered. 
 
